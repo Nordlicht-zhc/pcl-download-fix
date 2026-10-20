@@ -1,0 +1,9 @@
+Changed method: System.Void PCL.ModModpack::ModpackInstall()
+Changed method: PCL.ModLoader/LoaderCombo`1<System.String> PCL.ModModpack::ModpackInstall(System.String,System.String,System.String)
+Changed method: System.Void PCL.ModModpack/_Closure$__0-0::_Lambda$__0()
+Changed method: System.Void PCL.PageDownloadInstall::LoaderInit()
+Unchanged method bodies=6335
+All embedded resources unchanged=2
+Restriction constant=False
+Assembly refs=mscorlib, PresentationFramework, PresentationCore, System.Xaml, Microsoft.VisualBasic, System, WindowsBase, System.Core, MeloongCore, Newtonsoft.Json, PCLCS, System.IO.Compression, NAudio, System.Net.Http, System.Drawing, System.Xml.Linq, System.Windows.Forms, ThrottleDebounce, MeloongCore.Wpf, CacheCow.Client.FileStore, CacheCow.Client, CacheCow.Common, Imazen.WebP
+PASS

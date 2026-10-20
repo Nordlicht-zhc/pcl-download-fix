@@ -1,0 +1,16 @@
+# Personal files and runtime data
+.minecraft/
+PCL/
+Instances/
+Install/
+*.log
+*.env
+.env*
+*.user
+*.suo
+**/obj/
+**/.vs/
+tools/bin/
+source/Plain Craft Launcher 2/bin/
+.dotnet/
+baseline/

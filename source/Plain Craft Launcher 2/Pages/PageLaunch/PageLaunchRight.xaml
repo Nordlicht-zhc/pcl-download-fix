@@ -1,0 +1,21 @@
+<local:MyPageRight x:Class="PageLaunchRight"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:behaviors="clr-namespace:PCL.Controls.Behaviors"
+    xmlns:local="clr-namespace:PCL" PanScroll="PanBack">
+    <local:MyScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" x:Name="PanBack">
+        <StackPanel Name="PanMain" Margin="25,25,25,10" Grid.IsSharedSizeScope="True">
+            <local:MyHint x:Name="PanHint" RelativeSetup="HintSnapshot" Theme="Blue" CanClose="True" Margin="0,0,0,15"
+                          Text="快照版 PCL 包含尚未正式发布的测试功能，仅限赞助者自己使用。&#xa;请不要随意发给其他人，或是用来制作整合包哦！" />
+            <StackPanel x:Name="PanCustom">
+            </StackPanel>
+            <local:MyCard Margin="0,0,0,15" Title="启动日志" x:Name="PanLog">
+                <local:MyTextBox x:Name="LabLog" Margin="15,34,15,13" Padding="0,4" IsReadOnly="True" IsUndoEnabled="False"
+                         AcceptsReturn="True" TextWrapping="Wrap" BorderThickness="0" HasBackground="False"
+                         VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Disabled" />
+            </local:MyCard>
+        </StackPanel>
+    </local:MyScrollViewer>
+</local:MyPageRight>

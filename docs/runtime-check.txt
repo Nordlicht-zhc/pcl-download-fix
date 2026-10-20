@@ -1,0 +1,8 @@
+RestrictMcDownload=False
+JIT checks passed
+ZIP bytes=158
+Modpack route: CurseForge 整合包未提供 Minecraft 版本信息
+Download page initialized with real loader
+Version list state=Finished
+Version count=919
+PASS
