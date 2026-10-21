@@ -6,7 +6,9 @@
 
 ## 使用
 
-程序位于 [dist](dist/)，文件名为 `Plain Craft Launcher (PCL) 本地下载修复版.exe`。在 Windows 上将它放进自己的 PCL 文件夹再运行，即可使用该目录已有的 Minecraft 文件和设置。保留原启动器，便于切回原版本。
+**修改后的 EXE 在 [GitHub Releases](https://github.com/Nordlicht-zhc/pcl-download-fix/releases) 中下载，源码目录不再存放可执行程序。** 打开 [2.99.0.0 下载修复版 Release](https://github.com/Nordlicht-zhc/pcl-download-fix/releases/tag/v2.99.0.0-download-fix.1)，在 **Assets** 中下载 `Plain-Craft-Launcher-PCL-Download-Fix.exe`，以及用于校验文件的 `SHA256SUMS.txt`。
+
+在 Windows 上将下载的 EXE 放进自己的 PCL 文件夹再运行，即可使用该目录已有的 Minecraft 文件和设置。保留原启动器，便于切回原版本。仓库为私有时，需要登录有访问权限的 GitHub 账号才能查看 Release 和下载附件。
 
 运行文件 SHA256：
 
@@ -49,4 +51,4 @@ FB3E219C4B579661052E791496CF8D0D9C3BE93EE7EBCABFB3750E647AA2C988
 6B6E1260CB5A1D6A303855F1C60CAB3D0BC1AEBBA7E40A964180188B271E7386
 ```
 
-脚本输出到 `dist`，不覆盖传入的原程序。仓库包含修改后的上游源码、所需编译依赖、构建工具和修改版程序；不包含本地游戏目录、账号配置、存档、原始反编译目录或个人运行日志。
+本地构建结果输出到 `artifacts`，该目录已被 Git 忽略，不会提交到仓库，也不会覆盖传入的原程序。仓库包含修改后的上游源码、所需编译依赖和构建工具；编译好的修改版 EXE 通过 Release 提供，不包含本地游戏目录、账号配置、存档、原始反编译目录或个人运行日志。
