@@ -6,7 +6,7 @@
 
 **修改后的 EXE 在 [Release](https://github.com/Nordlicht-zhc/pcl-download-fix/releases/tag/v2.99.0.0-download-fix.1) 中下载。** 打开页面，在 **Assets** 中下载 `Plain-Craft-Launcher-PCL-Download-Fix.exe`。
 
-在 Windows 上，将 EXE 放入自己的 PCL 文件夹后运行，即可使用该目录已有的游戏文件和设置。建议保留原启动器。私有仓库需要登录有访问权限的 GitHub 账号才能下载。
+在 Windows 上，将 EXE 放入自己的 PCL 文件夹后运行，即可使用该目录已有的游戏文件和设置。建议保留原启动器。
 
 ## 修改与源码
 
